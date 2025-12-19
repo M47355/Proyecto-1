@@ -219,7 +219,7 @@ class App:
         #                                tecla2, texto2, cmd2_press, cmd2_release, color)
         motors = [
             ("Brazo Principal", "Motor B", "W", "SUBIR", "w", "e", "S", "BAJAR", "s", "e", "#3498db"),
-            ("Base Giratoria", "Motor A", "A", "IZQUIERDA", "a", "q", "D", "DERECHA", "d", "q", "#e67e22"),
+            ("Base Giratoria", "Motor A", "A", "HORARIO", "a", "q", "D", "ANTI-HORARIO", "d", "q", "#e67e22"),
             ("Pinza", "Motor C", "O", "ABRIR", "o", "z", "C", "CERRAR", "c", "z", "#2ecc71"),
             ("Elevador Muñeca", "Motor E", "I", "SUBIR", "i", "m", "K", "BAJAR", "k", "m", "#9b59b6"),
         ]
@@ -349,4 +349,5 @@ class App:
 if __name__ == "__main__":
     root = tk.Tk()
     app = App(root)
+
     root.mainloop()
