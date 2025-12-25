@@ -7,7 +7,7 @@ import tempfile
 import os
 from pybricksdev.ble import find_device
 from pybricksdev.connections.pybricks import PybricksHubBLE
-from hub_program import HUB_PROGRAM
+from Servidor import HUB_PROGRAM
 
 
 # Tiempos de espera para las operaciones BLE
